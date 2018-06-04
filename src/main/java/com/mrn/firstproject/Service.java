@@ -6,6 +6,7 @@ import org.springframework.web.client.RestTemplate;
 public class Service {
 
     private String url = "https://jsonplaceholder.typicode.com/posts/1";
+    private String postsUrl = "https://jsonplaceholder.typicode.com/posts";
 
     RestTemplate restTemplate = new RestTemplate();
 
